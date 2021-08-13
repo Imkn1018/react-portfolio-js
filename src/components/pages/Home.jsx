@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useRef } from 'react';
 
 import { Navbar } from '../molecules/Navbar';
-// import Footer from '../components/Footer';
+import { Footer } from '../organisms/Footer';
 import { CustomCursor } from '../atoms/CustomCursor';
 import { Header } from '../organisms/Header';
 import { Featured } from '../organisms/Featured';
@@ -73,7 +73,7 @@ const Home = () => {
           <Featured />
           <About />
           <Gallery />
-          {/* <Footer /> */}
+          <Footer />
         </div>
       )}
     </>
