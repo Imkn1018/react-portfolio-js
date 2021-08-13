@@ -7,8 +7,8 @@ import { Navbar } from '../molecules/Navbar';
 import { CustomCursor } from '../atoms/CustomCursor';
 import { Header } from '../organisms/Header';
 import { Featured } from '../organisms/Featured';
-import { About } from '../organisms/About';
-// import Gallery from '../components/Gallery';
+import { About } from '../molecules/About';
+import { Gallery } from '../organisms/Gallery';
 import useLocoScroll from '../../hooks/useLocoScroll';
 
 import '../../App.scss';
@@ -72,8 +72,8 @@ const Home = () => {
           <Header />
           <Featured />
           <About />
-          {/* <Gallery />
-          <Footer /> */}
+          <Gallery />
+          {/* <Footer /> */}
         </div>
       )}
     </>

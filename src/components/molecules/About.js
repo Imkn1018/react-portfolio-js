@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import cn from 'classnames';
 
-import SectionHeader from '../atoms/SectionHeader';
+import { SectionHeader } from '../atoms/SectionHeader';
 
 import gsap from 'gsap';
 import SplitText from '../../utils/Split3.min';
