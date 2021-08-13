@@ -58,8 +58,8 @@ const Home = () => {
       <CustomCursor />
       {preloader ? (
         <div className="loader-wrapper absolute">
-          <h1>Flirty flowers</h1>
-          <h2>Rio de Janeiro</h2>
+          <h1>Kentaro Imai</h1>
+          <h2>Frontend Developper</h2>
         </div>
       ) : (
         <div
@@ -68,7 +68,7 @@ const Home = () => {
           data-scroll-container
           ref={ref}
         >
-          <Navbar />
+          {/* <Navbar /> */}
           <Header />
           <Featured />
           <About />

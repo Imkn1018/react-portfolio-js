@@ -39,12 +39,20 @@ export const About = () => {
       className={cn('about-section', { 'is-reveal': reveal })}
       data-scroll-section
     >
-      <SectionHeader title="about" />
+      <SectionHeader title="about me" />
       <p ref={ref} id="headline" className={cn({ 'is-reveal': reveal })}>
-        Flirty Flowers is a blog about flowers and the floral designers who make
+        {/* Flirty Flowers is a blog about flowers and the floral designers who make
         them into art. Creativity and the art of ‘making’ require dialogue. The
         full purpose of the Flirty Flowers blog is to encourage and inspire. We
-        value art, we value insight, and we value opinion.
+        value art, we value insight, and we value opinion. */}
+        <span>Kentaro Imai</span>
+        <br />
+        <br />
+        <span>From : Yokohama City, Kanagawa</span>
+        <br />
+        <span>Major : Marine Science, Statistics</span>
+        <br />
+        <span>Dream : Frontend Engineer</span>
       </p>
     </section>
   );

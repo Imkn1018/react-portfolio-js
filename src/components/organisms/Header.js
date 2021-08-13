@@ -7,12 +7,12 @@ import './Header.scss';
 
 export const Header = () => {
   useEffect(() => {
-    const split = new SplitText('#header-text', {
+    const split = new SplitText('#header-text, #header-content', {
       type: 'lines',
       linesClass: 'lineChildren',
     });
 
-    const splitParent = new SplitText('#header-text', {
+    const splitParent = new SplitText('#header-text, #header-content', {
       type: 'lines',
       linesClass: 'lineParent',
     });
@@ -28,12 +28,13 @@ export const Header = () => {
 
   return (
     <section className="header-container" data-scroll-section>
-      <ul className="header-menu">
+      {/* <ul className="header-menu">
         <li>Intro</li>
         <li>About</li>
         <li>Featured</li>
-      </ul>
-      <h1 id="header-text">Art Objects</h1>
+      </ul> */}
+      <h1 id="header-text">Create Emotion</h1>
+      <h3 id="header-content">感情を動かすデザインの創造</h3>
     </section>
   );
 };

@@ -1,3 +1,5 @@
+@import '../..//responsive.scss';
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -10,4 +12,14 @@
   color: #464646;
   font-weight: 600;
   text-transform: uppercase;
+  @include mq('tablet', max) {
+    padding: 30px 5vw;
+
+    justify-content: space-between;
+    font-size: 1.4em;
+
+    .hide-xs {
+      display: none;
+    }
+  }
 }

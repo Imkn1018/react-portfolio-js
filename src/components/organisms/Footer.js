@@ -51,7 +51,7 @@ export const Footer = () => {
         id="location-text"
         ref={ref}
       >
-        Rio de Janeiro
+        Kentaro Imai
       </h1>
     </section>
   );

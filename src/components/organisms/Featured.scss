@@ -1,8 +1,11 @@
+@import '../..//responsive.scss';
+
 .featured-section {
   display: grid;
   grid-template-columns: 1fr 3fr;
   // height: 100vh;
 
+  justify-content: space-between;
   align-items: center;
   img {
     clip-path: inset(100% 0% 0% 0%);
@@ -35,16 +38,41 @@
   }
   .featured-column-layout {
     grid-template-columns: 100px auto;
-    align-items: flex-end;
+    // align-items: flex-end;
     img {
-      width: 100%;
-      height: 125vh;
+      width: auto;
+      height: 100vh;
       object-fit: cover;
     }
     h6 {
       transform: translateX(100%) rotate(-90deg);
       transform-origin: left bottom;
       justify-self: self-end;
+    }
+  }
+  @include mq('tablet', max) {
+    padding: 30px 5vw;
+
+    grid-template-columns: 1fr;
+    font-size: 1.4em;
+    .featured-row-layout {
+      img {
+        width: 100%;
+        height: 75vh;
+        object-fit: cover;
+      }
+    }
+    .featured-column-layout {
+      img {
+        width: 100%;
+        height: 75vh;
+        object-fit: cover;
+      }
+      h6 {
+        transform: translateX(100%) rotate(-90deg);
+        transform-origin: left bottom;
+        justify-self: self-end;
+      }
     }
   }
 }
