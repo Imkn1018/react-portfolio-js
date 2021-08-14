@@ -111,7 +111,7 @@ export const Gallery = ({ src, index, columnOffset }) => {
     <section data-scroll-section className="section-wrapper gallery-wrap">
       <div className="gallery" ref={ref}>
         <div className="gallery-counter">
-          <span>{activeImage}</span>
+          <span>Works {activeImage}</span>
           <span className="divider" />
           <span>{images.length}</span>
         </div>

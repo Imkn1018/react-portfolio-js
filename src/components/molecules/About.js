@@ -48,11 +48,17 @@ export const About = () => {
         <span>Kentaro Imai</span>
         <br />
         <br />
-        <span>From : Yokohama City, Kanagawa</span>
+        <span>From</span>
+
+        <span>: Yokohama City, Kanagawa</span>
         <br />
-        <span>Major : Marine Science, Statistics</span>
+        <span>Major </span>
+
+        <span>: Marine Science, Statistics</span>
         <br />
-        <span>Dream : Frontend Engineer</span>
+        <span>Dream </span>
+
+        <span>: Frontend Engineer</span>
       </p>
     </section>
   );

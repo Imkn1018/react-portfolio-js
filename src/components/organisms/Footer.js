@@ -4,8 +4,29 @@ import { SectionHeader } from '../atoms/SectionHeader';
 import gsap from 'gsap';
 import SplitText from '../../utils/Split3.min';
 import cn from 'classnames';
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaGithubAlt,
+  FaDribbble,
+} from 'react-icons/fa';
 
 import './Footer.scss';
+
+const social = [
+  {
+    path: 'https://www.facebook.com/profile.php?id=100010857344034',
+    icon: <FaFacebookF />,
+  },
+  {
+    path: 'https://twitter.com/imkm1018',
+    icon: <FaTwitter />,
+  },
+  {
+    path: 'https://github.com/Imkn1018',
+    icon: <FaGithubAlt />,
+  },
+];
 
 export const Footer = () => {
   const ref = useRef(null);
@@ -53,6 +74,18 @@ export const Footer = () => {
       >
         Kentaro Imai
       </h1>
+
+      <div className="social-wrapper">
+        {social.map((socialItem, i) => (
+          <div as="span" key={i} className="social-item">
+            <a href={socialItem.path} target="_blank">
+              {socialItem.icon}
+            </a>
+          </div>
+        ))}
+      </div>
+
+      <h3 className="copyright">Copyright by {new Date().getFullYear()}</h3>
     </section>
   );
 };
