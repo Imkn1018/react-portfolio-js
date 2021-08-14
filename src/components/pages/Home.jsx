@@ -10,7 +10,7 @@ import { Featured } from '../organisms/Featured';
 import { About } from '../molecules/About';
 import { Gallery } from '../organisms/Gallery';
 import useLocoScroll from '../../hooks/useLocoScroll';
-
+// add scss
 import '../../App.scss';
 
 const Home = () => {
