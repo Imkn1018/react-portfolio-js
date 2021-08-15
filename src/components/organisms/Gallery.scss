@@ -43,7 +43,7 @@
   width: 400%;
   display: flex;
   flex-wrap: nowrap;
-  @include mq('tablet', max) {
+  @include mq('phablet', max) {
     height: 20vh;
     padding: 2vh 0;
   }
@@ -52,7 +52,7 @@
     height: 100%;
     position: relative;
     will-change: transform;
-    @include mq('tablet', max) {
+    @include mq('phablet', max) {
       height: 30vh;
 
       padding: 5vh 0;
