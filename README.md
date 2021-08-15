@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+![https://user-images.githubusercontent.com/80088680/129470141-03b08549-34b5-4362-b2b9-da7bb2ad13e7.png](https://user-images.githubusercontent.com/80088680/129470141-03b08549-34b5-4362-b2b9-da7bb2ad13e7.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[https://react-portfolio-js.vercel.app/](https://react-portfolio-js.vercel.app/)
 
-## Available Scripts
+## サイト概要
 
-In the project directory, you can run:
+自己紹介用のランディングページです。JavaScript のフレームワークである React 、アニメーションライブラリ『GSAP』の実践編として作成しました。
 
-### `yarn start`
+1 枚のページとなっており、スクロールによって浮かび上がる文字や画像を作成したり、ポートフォリオをスライダーで確認できるように作成しました。
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 作成した目的
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+自分の名刺がわりとして、自分の紹介をするために作成に至りました。加えて、今後様々な成果物を作成していく中で、成果物をまとめていくための、自分だけのプラットフォームを構築したいと想いのもと作成しました。
 
-### `yarn test`
+## 機能一覧
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 初期ローディング機能ページ表示機能
+- スクロールによって文字と画像が浮かび上がる機能（初回のみ）
+- 実績をスライダーで観賞できる機能
 
-### `yarn build`
+## 開発環境
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- JavaScript
+- React
+- scss
+- Vercel
